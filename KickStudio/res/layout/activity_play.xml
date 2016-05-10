@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    tools:context=".PlayActivity" >
+
+    <TextView
+        android:id="@+id/countHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playing" />
+
+    <TextView
+        android:id="@+id/requestTorque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countHeading"
+        android:text="@string/requestTorque"  />
+
+    <EditText
+        android:id="@+id/getTorque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/requestTorque"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:imeOptions="actionNext"
+        android:inputType="number" />
+
+
+    <TextView
+     android:id="@+id/requestDuration"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/getTorque"
+     android:text="@string/requestDuration" />
+    
+    <EditText
+        android:id="@+id/getTorqueDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/requestDuration"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:imeOptions="actionDone"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/displayLeftCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/getTorqueDuration"
+        
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="" />
+     
+      <EditText
+        android:id="@+id/displayRightCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/displayLeftCounter"
+        
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="" />
+
+      <EditText
+          android:id="@+id/displayStartTime"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/displayRightCounter"
+                   
+          android:clickable="false"
+          android:cursorVisible="false"         
+          android:focusable="false"
+          android:focusableInTouchMode="false"
+          android:inputType="number"  />
+      
+ <EditText
+          android:id="@+id/displayDistLeft"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/displayStartTime"
+          
+          android:clickable="false"
+          android:cursorVisible="false"         
+          android:focusable="false"
+          android:focusableInTouchMode="false"
+          android:inputType="number"  />
+ 
+ <EditText
+          android:id="@+id/displayDistRight"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@id/displayDistLeft"
+          
+          android:clickable="false"
+          android:cursorVisible="false"         
+          android:focusable="false"
+          android:focusableInTouchMode="false"
+          android:inputType="number"  />
+ 
+ <EditText
+          android:id="@+id/displayDuration"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/displayDistRight"
+          
+          android:clickable="false"
+          android:cursorVisible="false"         
+          android:focusable="false"
+          android:focusableInTouchMode="false"
+          android:inputType="number"  />
+
+ 
+
+
+</RelativeLayout>

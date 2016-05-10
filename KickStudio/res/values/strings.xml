@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KickStudio</string>
+    <string name="vision_only">Just look</string>
+    <string name="choice_msg">Just look or play?</string>
+    <string name="play">Play</string>
+    <string name="title_activity_watch">Watch Activity</string>
+    <string name="blank">watching scene</string>
+    <string name="video">video</string>
+    <string name="title_activity_play">Play Activity</string>
+    <string name="playing">Showing wheel counters</string>
+    <string name="requestTorque">Set torque </string>
+    <string name="requestDuration">Set torque duration</string>
+    <string name="action_settings">Settings</string>
+</resources>
